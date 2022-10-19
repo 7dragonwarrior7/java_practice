@@ -19,3 +19,33 @@ public class TestProject_1 {
 
 -----------/
 y is greater than x
+
+=============/
+
+package test_project_1;
+
+public class TestProject_1 {
+	public static void main (String[] args)
+	{
+		int x=10;
+		int	y=20;
+		
+		if(y>x)
+		{
+			System.out.println("y is greater than x");
+			
+		}
+		else if(y==x)
+		{
+			System.out.println("y is equal to x");
+		}
+		else	
+		{
+			System.out.println("x is greater than y");
+		}
+	}
+
+}
+--------------/
+y is greater than x
+========/
