@@ -14,3 +14,51 @@ public class TestProject {
 
 --------------/
 10
+================/
+package test_project;
+
+public class TestProject {
+
+	public static void main (String[] args)
+	{
+		float a=10.48f;
+		System.out.println(a);
+	
+	}
+	
+}
+----------------------------/
+10.48
+-================/
+package test_project;
+
+public class TestProject {
+
+	public static void main (String[] args)
+	{
+		boolean a=false;
+		System.out.println(a);
+	
+	}
+	
+}
+
+----------/
+false
+
+-==============/
+package test_project;
+
+public class TestProject {
+
+	public static void main (String[] args)
+	{
+		String a="hello";
+		System.out.println(a);
+	
+	}
+	
+}
+----------/
+hello
+======/
