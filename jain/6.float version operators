@@ -1,0 +1,42 @@
+package operators;
+
+public class operators_in_float_version
+{
+	
+
+		public static void main (String[] args)
+		
+		{
+			float a=70f;
+		
+			float b=2f;
+		
+			System.out.println(a*b);
+			System.out.println(a/b);
+			System.out.println(a+b);
+			System.out.println(a-b);
+			System.out.println(a*b);
+			System.out.println(a/b);
+			System.out.println(a%b);
+			System.out.println(Math.pow(a,b));
+			System.out.println(a>b);
+			System.out.println(a<b);
+			System.out.println(a==b);
+			System.out.println(a!=b);
+		}
+
+	
+}
+----------------/
+140.0
+35.0
+72.0
+68.0
+140.0
+35.0
+0.0
+4900.0
+true
+false
+false
+true
