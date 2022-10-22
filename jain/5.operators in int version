@@ -1,0 +1,48 @@
+package operators;
+
+
+
+public class Operators 
+{
+
+	public static void main (String[] args)
+	
+	{
+		int a=70;
+	
+		int b=2;
+	
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		System.out.println(Math.pow(a,b));
+    System.out.println(a>b);
+		System.out.println(a<b);
+		System.out.println(a==b);
+		System.out.println(a!=b);
+		
+	}
+
+}
+--------------/
+140
+35
+72
+68
+===============/
+
+
+
+
+140
+35
+0
+4900.0
+true
+false
+false
+true
