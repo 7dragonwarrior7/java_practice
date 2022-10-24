@@ -1,1 +1,29 @@
 
+import java.lang.*;
+
+public class one
+{
+	public static void main (String args[])
+
+	{
+		System.out.println("Hello Ganesh,This is my first java program");
+	}
+}
+--------------------/
+step1.save this content in note pad or notepad ++ as "one.java"
+step2.compile this code with this command "javac one.class" in cmd
+step3.run this command to excute this class file "java one" in cmd
+------/
+extra tips
+"cls" to clear unwanted stuff in cmd 
+"cd" to enter the path.
+"dir" one ----------->> to show the exact file,
+"dir" to show list of files
+"more" or "type" before filename to read the file
+
+
+-------------------/
+
+
+output
+Hello Ganesh,This is my first java program
