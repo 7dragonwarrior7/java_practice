@@ -1,0 +1,20 @@
+package Scanner;
+
+public class Scanner 
+{
+
+	static public void main(String args[])
+
+	{
+		Scanner S =new scanner (system.in);
+		int a,b,c;
+		System.out.println("Please enter 2 integers");
+		a=S.nextInt();
+		b=S.nextInt();
+		c=a+b;
+		System.out.println("Sum is " +c);
+	}
+}
+-------------/
+output
+#error is coming need to debug
