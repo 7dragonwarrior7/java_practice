@@ -1,0 +1,21 @@
+In notepad ++ , please enter this,below one
+------/
+
+
+import java.lang.*;
+
+public class one
+{
+	public static void main (String args[])
+
+	{
+		System.out.println("Hello Ganesh,This is my first java program");
+		System.out.println(args [0]); //-----> this this will help to create more args beside of java one..... that is "java one bye", if you want add bye2 as another argument then add System.out.println(args [1]); below args[0] // 
+	}
+}
+
+
+-------------/
+out put
+Hello Ganesh,This is my first java program
+bye
