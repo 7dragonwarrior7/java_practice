@@ -1,0 +1,57 @@
+package variables;
+
+public class Variables {
+
+    public static void main(String[] args) {
+        
+        byte b=5;
+        short s=300;
+        int i=100;
+        float f=25.3f;
+        char c='A';
+        
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(f);
+        System.out.println(c);
+    }
+    
+}
+
+----------/
+#rules
+Java
+Rules for variables
+1. Case Sensitive
+Ex :
+int amount;
+int Amount;
+• These both are different variables
+2. Contains Alphabets , Numbers _ or $
+Ex :
+int room1;
+int cabin51;
+int room_number
+float total$amount
+3. Starts with Alphabet _ or $
+Ex :
+byte x1;
+byte _x;
+4. Should not be keyword
+Ex : These are the keywords which we cannot use while declaring a
+variable
+5. Should not be class name , if class is also in use
+Ex :
+• If string class is used then the variable cannot have the
+same name as the class
+string
+int string
+6. No limit on length on names
+• You can declare a variable name as small as possible or
+as large as possible
+7. Follows camel casing
+The first letter of a word must be capital except for the first
+word
+Ex :
+byte rollNumber;
