@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package aO_QuadraticEqaution;
+import java.util.*;
+/**
+ *
+ * @author dcp_1
+ */
+public class quadraticEquation {
+     public static void main (String args[])
+    {
+        Scanner sc= new Scanner (System.in);
+        float a,b,c;
+        double r1,r2;
+        System.out.println("Please enter coefficient of quadratic equation: ");
+        a=sc.nextFloat();
+        b=sc.nextFloat();
+        c=sc.nextFloat();
+        r1=(-b+Math.sqrt(b*b-(4*a*c))/(2*a));
+        r2=(-b+Math.sqrt(b*b-(4*a*c))/(2*a));
+        System.out.println("The Quadratic equations root are as follows : " +r1+ " " +r2 );
+    }
+}
+----------------/
+Please enter coefficient of quadratic equation: 
+1
+-4
+-4
+The Quadratic equations root are as follows : 6.82842712474619 6.82842712474619
+BUILD SUCCESSFUL (total time: 11 seconds)
+--------------/
