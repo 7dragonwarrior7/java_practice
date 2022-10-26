@@ -1,0 +1,38 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package aO_volume_SurfaceArea;
+
+import java.util.*;
+/**
+ *
+ * @author dcp_1
+ */
+public class aO_volume_SurfaceArea {
+    static public void main(String args[])
+       
+    {
+        float l,b,h;
+        double sa,volume;
+        System.out.println("Please enter length,breadth and height line by line: ");
+        Scanner sc= new Scanner(System.in);
+        l=sc.nextFloat();
+        b=sc.nextFloat();
+        h=sc.nextFloat();
+        sa=2*(l*b+b*h+h*l);
+        volume=l*b*h;
+        System.out.println("Surface Area of Cuboid is : " +sa);
+        System.out.println("volume of Cuboid is : " +volume);
+    }
+            
+}
+----------/
+run:
+Please enter length,breadth and height line by line: 
+2
+3
+4
+Surface Area of Cuboid is : 52.0
+volume of Cuboid is : 24.0
+BUILD SUCCESSFUL (total time: 4 seconds)
