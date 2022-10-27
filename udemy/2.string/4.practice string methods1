@@ -1,2 +1,59 @@
  
  
+package stringOperations;
+
+/**
+ *
+ * @author dcp_1
+ */
+public class practiceStringMethods {
+    static public void main(String args[])
+    {   String str,str1,STR,STR1;
+        int strr,str11;
+        str="Java_world";
+        str1=new String("java");
+        strr=str.length(); 
+        str11=str1.length();
+        System.out.println(str);
+        System.out.println(str1);
+        System.out.println(str.length());
+        System.out.println(strr);
+        System.out.println(str11);
+        //to change in to upper case, String Operation//
+        STR=str.toUpperCase();
+        STR1=str1.toUpperCase();
+        System.out.println(STR);
+        System.out.println(STR1);
+        String strim=new String("      net_beans     ");
+        System.out.println(strim);
+        String trimed =strim.trim();
+        System.out.println(trimed);
+        //SubString concept//
+        String coffeebeans=new String("CoffeeBeans");
+        String substringed=coffeebeans.substring(0,5);
+        String substringed1=coffeebeans.substring(6,10);
+        String substringed2=coffeebeans.substring(6);
+        System.out.printf("Substringed is:%s ,Substringed is:%s ,Substringed is: %s \n" ,substringed,substringed1,substringed2);
+        //Replace string character concept//
+        String replaced=coffeebeans.replace('f', 'u');
+        System.out.printf("Replaced coffeebeans word is : '%s'  and original string is : '%s' " ,replaced,coffeebeans);
+        
+        
+        
+    }
+}
+
+
+-----------------/
+run:
+Java_world
+java
+10
+10
+4
+JAVA_WORLD
+JAVA
+      net_beans     
+net_beans
+Substringed is:Coffe ,Substringed is:Bean ,Substringed is: Beans 
+Replaced coffeebeans word is : 'CouueeBeans'  and original string is : 'CoffeeBeans' BUILD SUCCESSFUL (total time: 0 seconds)
