@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package stringOperations;
 
 /**
@@ -18,7 +22,14 @@ public class printfOperations {
         f=60f;
         x= 'A';
         String str="Hello Java World,how are you?";
+        String str1="Hello Java";
         System.out.printf("required numbers are %d %.2f %c %s \n", a,d,x ,str);//%.2f you can limit zeroes in float with this //
-        ---------------.
-        required numbers are 10 40.00 A Hello Java World,how are you? 
-BUILD SUCCESSFUL (total time: 0 seconds)
+        System.out.printf("Strings %20s\n",str1);
+        System.out.printf("Strings %-20s\n",str1);
+    }
+}
+-------------/
+run:
+required numbers are 10 40.00 A Hello Java World,how are you? 
+Strings           Hello Java
+Strings Hello Java          BUILD SUCCESSFUL (total time: 0 seconds)
