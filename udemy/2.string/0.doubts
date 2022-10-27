@@ -1,3 +1,22 @@
 hi
 -------/
-kjjk
+package stringOperations;
+
+/**
+ *
+ * @author dcp_1
+ */
+public class practiceStringMethods {
+    static public void main(String args[])
+    {   String str,str1,strr,str11;
+        str="Java_world";
+        str1=new String("java");
+        strr=str.length();//strr not taking why??
+        //str11=str1.length();
+        System.out.println(str);
+        System.out.println(str1);
+        System.out.println(str.length());
+        System.out.println(strr);//why it is not executing ??
+    }
+}
+====================/
