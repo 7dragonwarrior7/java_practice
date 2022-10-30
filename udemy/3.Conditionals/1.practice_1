@@ -1,0 +1,25 @@
+package Conditionals;
+
+/**
+ *
+ * @author dcp_1
+ */
+import java.util.*;
+public class evenOrOodd {
+    static public void main(String args[])
+    {
+        long i;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Please enter a integer : ");
+        i=sc.nextInt();
+        if(i%2==0)
+        {
+        System.out.println("Checked number is 'even number' ,Which is: " +i);
+        }
+        else
+        System.out.println("Checked number is 'even number' ,Which is: "+i);
+    }
+}
+
+----------/
+//doubt digit is getting solved by programm upto only 12 digits
