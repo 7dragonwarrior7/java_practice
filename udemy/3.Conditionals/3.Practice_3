@@ -1,0 +1,73 @@
+
+import java.util.*;
+public class grades_if_else {
+    static public void main(String args[])
+    {
+       
+        int n;
+        Scanner name=new Scanner(System.in); 
+        
+        //Scanner marks=new Scanner(System.in);
+        
+        //String marked=
+        
+        System.out.println("Please enter your Favourite Subject name : " );
+        String named=name.nextLine();
+        System.out.println("Please enter your marks? ");
+        int marked=name.nextInt();
+        //n=name.nextInt();
+        System.out.println("Subject: " +named);
+        
+        System.out.println("Marks: " +marked);
+        //System.out.printf(" Entered your Favourite Subject name is : %s \n" ,named );
+        //System.out.println("Please enter your " +named+ "marks , so that system will generate grade: ");
+//System.out.printf("Please enter '%s' subject's Marks, So that system will generate grade \n", named);
+        System.out.printf("entered marks of '%s' subject is : '%d' out of 100 \n and grade is \n ", named,marked);
+        
+                if(marked<=40)
+                {
+                    System.out.println(" Grade is failed");
+                }
+                else if( marked>=50 && marked<=60)
+                {
+                        System.out.println("Grades is C");
+                }
+                 else if( marked>=60 && marked<=70)
+                {
+                        System.out.println("Grades is B");
+                }
+                 else if( marked>=70 && marked<=80)
+                {
+                        System.out.println("Grades is A");
+                }
+                 else if( marked>=80 &&marked<=90)
+                {
+                        System.out.println("Grades is S");
+                }
+                 else if( marked>=90 && marked<=100)
+                {
+                        System.out.println("Grades is 'Distinction'");
+                }
+                 else 
+                
+                        System.out.println("Please Enter your marks properly");
+                
+                
+                
+                
+                
+    }
+}
+
+---------------/
+run:
+Please enter your Favourite Subject name : 
+JAVA
+Please enter your marks? 
+99
+Subject: JAVA
+Marks: 99
+entered marks of 'JAVA' subject is : '99' out of 100 
+ and grade is 
+ Grades is 'Distinction'
+BUILD SUCCESSFUL (total time: 7 seconds)
