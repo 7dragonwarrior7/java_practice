@@ -1,0 +1,24 @@
+package Conditionals;
+
+/**
+ *
+ * @author dcp_1
+ */
+import java.util.*
+public class youngOlder {
+    static public void main(String args[])
+    {
+        int n;
+        System.out.println("Please enter the age:  ");
+        Scanner age=new Scanner(System.in);
+        n=age.nextInt();
+        if(n>=14)
+        {
+            System.out.printf("Entered Age is :%d , which id 'Older'\n  " ,n);
+            
+        }
+        else
+            System.out.printf("Entere Age is  :%d , which is 'younger'\n", n);
+    }
+}
+------------/
